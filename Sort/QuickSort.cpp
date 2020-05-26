@@ -1,7 +1,7 @@
 #include <vector>
 #include <iostream>
 using namespace std;
-int myints[] = {21,432,454,1,235,546,122,5,123,23,6};
+int myints[] = {21,432,454,1,235,546,122,5,123,23,6,3,567};
 vector<int> arr (myints, myints + sizeof(myints) / sizeof(int));
 int htimes = 0, qtimes = 0;
 int helper(int begin, int end) {
