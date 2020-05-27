@@ -13,3 +13,4 @@ SelectSort
 HeapSort
 InsertSort
 MergeSort
+ShellSort
