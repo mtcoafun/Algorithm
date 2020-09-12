@@ -18,7 +18,7 @@ public:
         bfsq.push(root);
         while (!bfsq.empty()) {
             res.push_back(vector<int> ());
-            for(int i = bfsq.size(); i > 0; i++) {
+            for(int i = bfsq.size(); i > 0; i--) {
                 TreeNode* temp = bfsq.front();
                 res.back().push_back(temp->val);
                 bfsq.pop();
